@@ -28,7 +28,7 @@ def id_generator(size=6, chars=string.ascii_uppercase + string.digits):
 
 def send_message(webhook_url):
     username = id_generator(80)
-    message = "# @everyone EMO LIKES KIDS"
+    message = "# @everyone PISSED ON BY CRY"
     avatar = "https://picsum.photos/id/{}/300".format(random.randint(1, 500))
     data = json.dumps({
         "content": message,
